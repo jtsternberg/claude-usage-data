@@ -34,10 +34,10 @@ In any Claude Code session, run:
 
 ### 2. Publish to GitHub Pages
 
-**Option A:** Just tell Claude to follow the instructions at this URL:
+**Option A:** Just tell Claude:
 
 ```
-https://raw.githubusercontent.com/jtsternberg/claude-usage-data/main/skills/publish-insights/SKILL.md
+Follow the instructions at https://raw.githubusercontent.com/jtsternberg/claude-usage-data/main/skills/publish-insights/SKILL.md to publish my insights report
 ```
 
 **Option B:** Install the skill permanently and run it:
