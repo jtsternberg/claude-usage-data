@@ -32,20 +32,12 @@ In any Claude Code session, run:
 /insights
 ```
 
-### 2. Install the Publish Skill
+### 2. Install and Run
 
-Run this one-liner to install the `/publish-insights` skill:
+Run this one-liner to install the skill and start publishing:
 
 ```bash
-mkdir -p ~/.claude/skills/publish-insights && curl -sL https://raw.githubusercontent.com/jtsternberg/claude-usage-data/main/skills/publish-insights/SKILL.md -o ~/.claude/skills/publish-insights/SKILL.md
-```
-
-### 3. Publish to GitHub Pages
-
-In Claude Code, run:
-
-```
-/publish-insights
+mkdir -p ~/.claude/skills/publish-insights && curl -sL https://raw.githubusercontent.com/jtsternberg/claude-usage-data/main/skills/publish-insights/SKILL.md -o ~/.claude/skills/publish-insights/SKILL.md && claude "/publish-insights"
 ```
 
 This will guide you through creating a GitHub repo and publishing your report to GitHub Pages.
