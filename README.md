@@ -26,6 +26,6 @@ This will analyze your local Claude Code usage data and generate a similar HTML 
 ## Viewing the report
 
 The report is hosted via GitHub Pages at:
-https://jtsternberg.github.io/claude-usage-data/report.html
+https://jtsternberg.github.io/claude-usage-data/
 
-Or open `report.html` locally in any web browser.
+Or open `index.html` locally in any web browser.
